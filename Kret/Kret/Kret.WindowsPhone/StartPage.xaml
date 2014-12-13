@@ -16,7 +16,7 @@
         </Grid.Background>
         
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Nowa Gra" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click_1" />
+            <Button Content="Nowa Gra" FontSize="52" Margin="20" HorizontalAlignment="Center" />
             <Button Content="Ranking" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click" />
         </StackPanel>
 

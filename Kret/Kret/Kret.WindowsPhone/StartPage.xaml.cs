@@ -26,7 +26,7 @@ namespace Kret
         public StartPage()
         {
             this.InitializeComponent();
-            file = new SaveReadFile("TopScores.txt");
+            file = new SaveReadFile("TopScore.txt");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
