@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Krecik.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\music.mp3" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\kopiec.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\kret.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\krecik.png" />

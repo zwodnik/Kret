@@ -9,6 +9,7 @@ namespace Kret
 {
     class Krecik
     {
+        
         private double Height;
         private bool isShow {get; set;}
         private int state = 0;
@@ -32,7 +33,7 @@ namespace Kret
             state = -1;
         }
 
-
+       
 
 
     }
