@@ -8,26 +8,17 @@
     mc:Ignorable="d">
 	<Page.Resources>
 		<DataTemplate x:Key="PlayerListView">
-			<StackPanel Orientation="Horizontal" Width="400">
-				<TextBlock TextWrapping="Wrap" FontSize="42" HorizontalAlignment="Left" Width="300" Text="{Binding Name}"/>
-                <TextBlock TextWrapping="Wrap" FontSize="42" HorizontalAlignment="Right" Width="100" TextAlignment="Right" Text="{Binding Score}"/>
+			<StackPanel Orientation="Horizontal" Width="300">
+				<TextBlock TextWrapping="Wrap" FontSize="24" HorizontalAlignment="Left" Width="220" Text="{Binding Name}"/>
+                <TextBlock TextWrapping="Wrap" FontSize="24" HorizontalAlignment="Right" Width="80" TextAlignment="Right" Text="{Binding Score}"/>
 			</StackPanel>
 		</DataTemplate>
 	</Page.Resources>
 
-    <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="" />
-        </Grid.Background>
-        <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition Height="5*" />
-            <RowDefinition />
-        </Grid.RowDefinitions>
-        <Button Style="{StaticResource NavigationBackButtonNormalStyle}" Margin="30,30,0,0" x:Name="BackButton" Click="BackButton_Click" />
-        <StackPanel Grid.Row="1" Margin="100,0">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="0, 20, 0, 20" >
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
-                <TextBlock Text="TopScores" FontSize="50" FontWeight="Bold" />
+                <TextBlock Text="TopScores" FontSize="28" FontWeight="Bold" />
             </StackPanel>
             <StackPanel Margin="0,50,0,0">
                 <ListView SelectionMode="None" ItemTemplate="{StaticResource PlayerListView}" x:Name="ListViewScore" HorizontalAlignment="Center" VerticalAlignment="Center" ></ListView>
