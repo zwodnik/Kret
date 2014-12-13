@@ -11,7 +11,7 @@ namespace Kret
     {
         private double Height;
         private bool isShow {get; set;}
-
+        private int state = 0;
 
         public Krecik()
         {
@@ -24,11 +24,12 @@ namespace Kret
         public void ShowKret()
         {
             isShow = true;
+            state = 1;
         }
 
         public void HideKret()
         {
-           
+            state = -1;
         }
 
 
