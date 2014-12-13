@@ -26,16 +26,15 @@
 			<Image x:Name="kr6" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Source="Assets/krecik.png" Margin="347,227,0,0"/>
 			<Image x:Name="kr7" HorizontalAlignment="Left" Height="127" VerticalAlignment="Top" Width="110" Source="Assets/krecik.png" Margin="434,405,0,-132"/>
 		</Grid>
-		<Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="432" Width="656" Margin="350,164,0,0">
-			<Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="201" Margin="-169,306,0,0" Source="Assets/kopiec.png" RenderTransformOrigin="0.491,0.444"/>
-			<Image HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="168" Source="Assets/kopiec.png" Margin="-78,122,0,0"/>
-			<Image HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="164" Source="Assets/kopiec.png" Margin="271,27,0,0"/>
-			<Image HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="217" Source="Assets/kopiec.png" Margin="387,395,0,-107"/>
-			<Image HorizontalAlignment="Left" Height="95" VerticalAlignment="Top" Width="179" Source="Assets/kopiec.png" Margin="501,98,-24,0"/>
-			<Image HorizontalAlignment="Left" Height="121" VerticalAlignment="Top" Width="188" Source="Assets/kopiec.png" Margin="696,301,-228,0"/>
-			<Image HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="169" Source="Assets/kopiec.png" Margin="308,224,0,0"/>
-		</Grid>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="432" Width="656" Margin="350,164,0,0">
+            <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="201" Margin="-169,306,0,0" Source="Assets/kopiec.png" RenderTransformOrigin="0.491,0.444"/>
+            <Image HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="168" Source="Assets/kopiec.png" Margin="-78,122,0,0"/>
+            <Image HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="164" Source="Assets/kopiec.png" Margin="271,27,0,0"/>
+            <Image HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="217" Source="Assets/kopiec.png" Margin="387,395,0,-107"/>
+            <Image HorizontalAlignment="Left" Height="95" VerticalAlignment="Top" Width="179" Source="Assets/kopiec.png" Margin="501,98,-24,0"/>
+            <Image HorizontalAlignment="Left" Height="121" VerticalAlignment="Top" Width="188" Source="Assets/kopiec.png" Margin="696,301,-228,0"/>
+            <Image HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="169" Source="Assets/kopiec.png" Margin="308,224,0,0"/>
+        </Grid>
         <MediaElement x:Name="muzyczka" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/music.mp3" IsHitTestVisible="False" AudioCategory="ForegroundOnlyMedia" IsLooping="True"/>
-
-	</Grid>
+    </Grid>
 </Page>
