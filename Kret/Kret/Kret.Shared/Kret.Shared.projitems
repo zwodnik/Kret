@@ -17,4 +17,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Krecik.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kopiec.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\krecik.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\trawa.png" />
+  </ItemGroup>
 </Project>
