@@ -15,9 +15,16 @@
             </LinearGradientBrush>
         </Grid.Background>
 
+        <Button Style="{StaticResource NavigationBackButtonNormalStyle}" Margin="50,50,0,0" Click="Button_Click" />
+        
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="" />
+            <TextBlock Text="Jest piękny, słoneczny, wakacyjny dzień. Wracasz z urlopu do świata rzeczywistego,
+wracasz na swoją działkę podlać swoje petunie. Ale to co zastałeś przerosło twoje
+wszystkie przypuszczenia. Oto na Twojej działce, zaczęły rozmnażać się krety mutanty.
+Twoje zadanie to odpłacić się im za to, że zniszczyły Twoje kwiatuszki. Powstrzymaj
+inwazję tych paskudnych zwierząt! Zabij jak najwięcej zanim opanują cały świat!" TextWrapping="Wrap" Margin="100,0,100,0" FontSize="32" />
             <Button Content="Start" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click_1" />
         </StackPanel>
+        <Image Source="Assets/kret.png" Width="150" Margin="300,300,0,0" />
     </Grid>
 </Page>

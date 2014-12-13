@@ -36,7 +36,7 @@ namespace Kret
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(StoryPage));
         }
     }
 }
