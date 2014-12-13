@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
+
+
+
 namespace Kret
 {
     class Krecik
@@ -10,12 +13,22 @@ namespace Kret
         private bool isShow {get; set;}
 
 
-
         public Krecik()
         {
             this.isShow = false;
-            this.Height = 100; // TRZEBA WPISAC WYSOKOSC
+            this.Height = 0; // TRZEBA WPISAC WYSOKOSC
             
+        }
+
+
+        public void ShowKret()
+        {
+            isShow = true;
+        }
+
+        public void HideKret()
+        {
+           
         }
 
 
