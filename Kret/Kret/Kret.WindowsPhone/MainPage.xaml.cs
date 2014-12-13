@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -29,6 +30,9 @@ namespace Kret
             //muzyczka.Play();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+            Thread thread = new Thread(SecondFoo);
+            thread.Start();
         }
 
         /// <summary>
