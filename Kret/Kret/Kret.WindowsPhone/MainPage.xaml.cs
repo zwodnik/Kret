@@ -26,6 +26,8 @@ namespace Kret
         {
             this.InitializeComponent();
 
+            muzyczka.Play();
+
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 

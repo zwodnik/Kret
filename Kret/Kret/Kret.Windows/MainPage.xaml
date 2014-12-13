@@ -35,7 +35,7 @@
 			<Image HorizontalAlignment="Left" Height="121" VerticalAlignment="Top" Width="188" Source="Assets/kopiec.png" Margin="696,301,-228,0"/>
 			<Image HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="169" Source="Assets/kopiec.png" Margin="308,224,0,0"/>
 		</Grid>
-        <MediaElement x:Name="muzyczka" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/background_music.wav" IsHitTestVisible="False" AudioCategory="ForegroundOnlyMedia"/>
+        <MediaElement x:Name="muzyczka" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/music.mp3" IsHitTestVisible="False" AudioCategory="ForegroundOnlyMedia" IsLooping="True"/>
 
 	</Grid>
 </Page>

@@ -38,4 +38,5 @@
     	</Grid>
 
     </Grid>
+    <MediaElement x:Name="muzyczka" HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="100" Source="Assets/music.mp3" IsHitTestVisible="False" AudioCategory="ForegroundOnlyMedia" IsLooping="True"/>
 </Page>
