@@ -7,7 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF303597" Offset="0.228"/>
+				<GradientStop Color="#FF42872E" Offset="0.483"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Image Source="Assets/trawa.png" Margin="-10,36,10,-36"/>
+		<TextBlock x:Name="punkty_TB" HorizontalAlignment="Right" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="249" Height="72" FontSize="48" Margin="0,10,10,0"/>
+		<TextBlock x:Name="hp_TB" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="48" Margin="10,10,0,0" Height="55" Width="240"/>
+		<Grid HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="618" Margin="350,164,0,0">
+			<Image x:Name="kr1" HorizontalAlignment="Left" Height="99" VerticalAlignment="Top" Width="94" Source="Assets/krecik.png" Margin="-116,313,0,-12"/>
+			<Image x:Name="kr2" HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="76" Source="Assets/krecik.png" Margin="-35,130,0,0" RenderTransformOrigin="0.65,0.271"/>
+			<Image x:Name="kr3" HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="75" Source="Assets/krecik.png" Margin="307,38,0,0"/>
+			<Image x:Name="kr4" HorizontalAlignment="Left" Height="77" VerticalAlignment="Top" Width="82" Source="Assets/krecik.png" Margin="536,104,0,0"/>
+			<Image x:Name="kr5" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Width="83" Source="Assets/krecik.png" Margin="735,313,-200,0"/>
+			<Image x:Name="kr6" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Source="Assets/krecik.png" Margin="347,227,0,0"/>
+			<Image x:Name="kr7" HorizontalAlignment="Left" Height="127" VerticalAlignment="Top" Width="110" Source="Assets/krecik.png" Margin="434,405,0,-132"/>
+		</Grid>
+		<Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="432" Width="656" Margin="350,164,0,0">
+			<Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="201" Margin="-169,306,0,0" Source="Assets/kopiec.png" RenderTransformOrigin="0.491,0.444"/>
+			<Image HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="168" Source="Assets/kopiec.png" Margin="-78,122,0,0"/>
+			<Image HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="164" Source="Assets/kopiec.png" Margin="271,27,0,0"/>
+			<Image HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="217" Source="Assets/kopiec.png" Margin="387,395,0,-107"/>
+			<Image HorizontalAlignment="Left" Height="95" VerticalAlignment="Top" Width="179" Source="Assets/kopiec.png" Margin="501,98,-24,0"/>
+			<Image HorizontalAlignment="Left" Height="121" VerticalAlignment="Top" Width="188" Source="Assets/kopiec.png" Margin="696,301,-228,0"/>
+			<Image HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="169" Source="Assets/kopiec.png" Margin="308,224,0,0"/>
+		</Grid>
 
-    </Grid>
+	</Grid>
 </Page>

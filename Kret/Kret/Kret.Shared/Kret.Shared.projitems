@@ -15,6 +15,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Krecik.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kopiec.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\krecik.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\trawa.png" />
     <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SaveReadFile.cs" />
   </ItemGroup>
