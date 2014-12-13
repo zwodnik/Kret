@@ -20,5 +20,7 @@
             <Button Content="Ranking" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click" />
         </StackPanel>
 
+        <Image Source="Assets/kret.png" Width="150" Margin="0,0,0,420" />
+        
     </Grid>
 </Page>

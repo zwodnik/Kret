@@ -19,7 +19,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\kopiec.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Assets\krecik-maly-baby-w-czapc_322.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kret.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\krecik.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\trawa.png" />
     <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />
