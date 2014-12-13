@@ -22,9 +22,21 @@ namespace Kret
     /// </summary>
     public sealed partial class StartPage : Page
     {
+        SaveReadFile file;
         public StartPage()
         {
             this.InitializeComponent();
+            file = new SaveReadFile("TopScores.txt");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TopScores),file);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

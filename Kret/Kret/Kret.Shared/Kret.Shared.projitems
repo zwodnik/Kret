@@ -20,6 +20,7 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\music.mp3" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\kopiec.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kret.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\krecik.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\trawa.png" />
     <Compile Include="$(MSBuildThisFileDirectory)Player.cs" />

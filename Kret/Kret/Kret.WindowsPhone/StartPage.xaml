@@ -16,10 +16,11 @@
         </Grid.Background>
         
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Nowa Gra" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click_1" />
+            <Button Content="Nowa Gra" FontSize="52" Margin="20" HorizontalAlignment="Center" />
             <Button Content="Ranking" FontSize="52" Margin="20" HorizontalAlignment="Center" Click="Button_Click" />
         </StackPanel>
-        <Image Source="Assets/kret.png" Width="250" Margin="500,0,0,0" />
-        <Image Source="Assets/kret.png" Width="250" Margin="0,0,500,0" />
+
+        <Image Source="Assets/kret.png" Width="150" Margin="0,0,0,420" />
+        
     </Grid>
 </Page>

@@ -20,13 +20,23 @@ namespace Kret
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class StartPage : Page
     {
-        public MainPage()
+        SaveReadFile file;
+        public StartPage()
         {
             this.InitializeComponent();
-            muzyczka.Play();
-            
+            file = new SaveReadFile("TopScore.txt");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(TopScores),file);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }
