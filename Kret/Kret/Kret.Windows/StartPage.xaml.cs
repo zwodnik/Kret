@@ -26,6 +26,7 @@ namespace Kret
         public StartPage()
         {
             this.InitializeComponent();
+            
             file = new SaveReadFile("TopScores.txt");
         }
 
